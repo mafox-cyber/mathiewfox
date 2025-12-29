@@ -3,3 +3,5 @@ description: "A blog"
 theme: minima
 baseurl: "/mathiewfox"
 url: "https://mafox-cyber.github.io"
+header_pages:
+  - about.md
