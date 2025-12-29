@@ -5,3 +5,5 @@ baseurl: "/mathiewfox"
 url: "https://mafox-cyber.github.io"
 header_pages:
   - about.md
+header_pages:
+  - about.md
