@@ -1,0 +1,124 @@
+---
+---
+
+@import "minima";
+
+/* ===== Lion Vibes: Colorful + Vibrant ===== */
+:root{
+  --bg1:#0b1220;
+  --bg2:#1a1033;
+  --card: rgba(255,255,255,0.08);
+  --card2: rgba(255,255,255,0.12);
+  --text: rgba(255,255,255,0.92);
+  --muted: rgba(255,255,255,0.72);
+
+  --pink:#ff2d8b;
+  --orange:#ff8a00;
+  --cyan:#00d4ff;
+  --lime:#7CFF6B;
+
+  --glow: 0 10px 30px rgba(255,45,139,0.18), 0 10px 30px rgba(0,212,255,0.12);
+}
+
+/* Background gradient */
+body{
+  background:
+    radial-gradient(1200px 700px at 20% 10%, rgba(255,45,139,0.25), transparent 60%),
+    radial-gradient(900px 600px at 80% 0%, rgba(0,212,255,0.18), transparent 55%),
+    radial-gradient(1000px 700px at 50% 90%, rgba(255,138,0,0.18), transparent 60%),
+    linear-gradient(180deg, var(--bg1), var(--bg2));
+  color: var(--text);
+}
+
+/* Links */
+a, a:visited{
+  color: var(--cyan);
+  text-decoration: none;
+}
+a:hover{
+  color: var(--pink);
+  text-decoration: underline;
+}
+
+/* Header styling */
+.site-header{
+  border-top: 0;
+  border-bottom: 0;
+  background: rgba(10, 15, 30, 0.65);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--glow);
+}
+.site-title, .site-title:visited{
+  color: var(--text);
+  letter-spacing: 0.5px;
+}
+.site-nav .page-link{
+  color: var(--muted);
+}
+.site-nav .page-link:hover{
+  color: var(--lime);
+}
+
+/* Content cards */
+.page-content .wrapper,
+.post-content,
+.home{
+  background: var(--card);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 18px;
+  box-shadow: var(--glow);
+}
+.wrapper{
+  padding: 22px;
+}
+
+/* Titles */
+.post-title, .page-heading, h1, h2, h3{
+  color: var(--text);
+}
+h2{
+  border-bottom: 2px solid rgba(255,255,255,0.10);
+  padding-bottom: 8px;
+}
+
+/* Make excerpts/posts look like colorful tiles */
+.post-list > li{
+  margin-bottom: 18px;
+  padding: 16px 16px;
+  background: linear-gradient(135deg, rgba(255,45,139,0.10), rgba(0,212,255,0.08));
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: 16px;
+}
+
+/* Buttons (use <a class="btn">) */
+.btn{
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--pink), var(--orange), var(--cyan));
+  color: #0b1220 !important;
+  font-weight: 700;
+  box-shadow: var(--glow);
+  border: none;
+}
+.btn:hover{
+  filter: brightness(1.05);
+  text-decoration: none;
+}
+
+/* Blockquotes look like neon notes */
+blockquote{
+  border-left: 6px solid var(--pink);
+  background: rgba(255,45,139,0.08);
+  border-radius: 12px;
+  padding: 12px 14px;
+  color: var(--muted);
+}
+
+/* Footer */
+.site-footer{
+  border-top: 0;
+  color: var(--muted);
+  background: rgba(10, 15, 30, 0.55);
+  backdrop-filter: blur(10px);
+}
