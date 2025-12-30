@@ -1,2 +1,2 @@
 # mathiewfox
-Re-writing History for Eden &amp; Michael
+Breaking the generational curse for E & M 
