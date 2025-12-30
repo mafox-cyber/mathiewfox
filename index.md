@@ -81,15 +81,15 @@ layout: none
 
       <div class="navRight">
         <a class="link" href="#">Log In</a>
-        <button class="btnTop" type="button">Get Started</button>
+        <button class="btnTop" type="button">***</button>
       </div>
     </header>
 
     <main class="content">
       <div class="contentInner">
       
-        <h1 class="headline">Welcome to my story<br/>that</h1>
-        <button class="cta" type="button">where a father re-writes history</button>
+        <h1 class="headline">Welcome to my story<br/>when a father re-writes History</h1>
+        <button class="cta" type="button">Begin the Journey</button>
       </div>
     </main>
 
