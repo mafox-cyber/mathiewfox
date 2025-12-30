@@ -93,11 +93,21 @@ layout: none
       </div>
     </main>
 
-    <div class="bottomPill" role="tablist" aria-label="Sections">
-      <button class="pillItem active" type="button">Iran</button>
-      <button class="pillItem" type="button">America</button>
-      <button class="pillItem" type="button">Divorce Court</button>
-      <button class="pillItem" type="button">Resume</button>
+<div class="bottomPill" role="tablist" aria-label="Sections">
+  <button class="pillItem active" type="button">Iran</button>
+  <button class="pillItem" type="button">America</button>
+
+  <a class="pillItem" href="{{ site.baseurl }}/about/">Divorce Court</a>
+
+  <button class="pillItem" type="button">Resume</button>
+  .pillItem{
+  display:inline-block;
+  text-decoration:none;
+}
+
+</div>
+
+
     </div>
   </section>
 
