@@ -100,13 +100,7 @@ layout: none
   <a class="pillItem" href="{{ site.baseurl }}/about/">Divorce Court</a>
 
   <button class="pillItem" type="button">Resume</button>
-  .pillItem{
-  display:inline-block;
-  text-decoration:none;
-}
-
 </div>
-
 
     </div>
   </section>
