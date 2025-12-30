@@ -89,15 +89,15 @@ layout: none
       <div class="contentInner">
         <div class="kicker">Blogging Platform</div>
         <h1 class="headline">Create a blog<br/>that stands out</h1>
-        <button class="cta" type="button">Get Started</button>
+        <button class="cta" type="button">My Journey Of Life</button>
       </div>
     </main>
 
     <div class="bottomPill" role="tablist" aria-label="Sections">
-      <button class="pillItem active" type="button">Test 1</button>
-      <button class="pillItem" type="button">Test 2</button>
-      <button class="pillItem" type="button">Test 3</button>
-      <button class="pillItem" type="button">Test 4</button>
+      <button class="pillItem active" type="button">Iran</button>
+      <button class="pillItem" type="button">America</button>
+      <button class="pillItem" type="button">Divorce Court</button>
+      <button class="pillItem" type="button">Resume</button>
     </div>
   </section>
 
