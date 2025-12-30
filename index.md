@@ -32,6 +32,7 @@ layout: none
       background-size:cover;
       background-position:center;
       transform:scale(1.03);
+      pointer-events:none; /* ✅ THIS FIXES YOUR CLICKING ISSUE */
     }
 
     .nav{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;padding:22px 28px;gap:18px}
@@ -77,7 +78,7 @@ layout: none
 <body>
   <section class="hero">
     <header class="nav">
-      <a class="brand" href="#">
+      <a class="brand" href="{{ site.baseurl }}/">
         <span class="logoMark" aria-hidden="true">
           <img src="{{ site.baseurl }}/assets/img/lion.svg" alt="">
         </span>
@@ -86,7 +87,7 @@ layout: none
 
       <nav class="navCenter" aria-label="Primary">
         <a href="{{ site.baseurl }}/">Blog</a>
-        <a href="{{ site.baseurl }}/Untitled.png">Pictures</a>
+        <a href="{{ site.baseurl }}/Untitled.png">Pictures</a>  <!-- ✅ now clickable -->
         <a href="#">Videos</a>
       </nav>
 
@@ -106,10 +107,7 @@ layout: none
     <div class="bottomPill" role="tablist" aria-label="Sections">
       <button class="pillItem active" type="button">Iran</button>
       <button class="pillItem" type="button">America</button>
-
       <a class="pillItem" href="{{ site.baseurl }}/about/">Divorce Court</a>
-      <a class="pillItem" href="{{ site.baseurl }}/Untitled.png">Images</a>
-
       <button class="pillItem" type="button">Resume</button>
     </div>
 
