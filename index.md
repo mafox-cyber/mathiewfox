@@ -74,9 +74,9 @@ layout: none
       </a>
 
       <nav class="navCenter" aria-label="Primary">
-        <a href="#">Products</a>
-        <a href="#">Solutions</a>
-        <a href="#">Resources</a>
+        <a href="#">Blog</a>
+        <a href="#">Pictures</a>
+        <a href="#">Videos</a>
       </nav>
 
       <div class="navRight">
@@ -87,9 +87,9 @@ layout: none
 
     <main class="content">
       <div class="contentInner">
-        <div class="kicker">Blogging Platform</div>
-        <h1 class="headline">Create a blog<br/>that stands out</h1>
-        <button class="cta" type="button">My Journey Of Life</button>
+      
+        <h1 class="headline">Welcome to my story<br/>that</h1>
+        <button class="cta" type="button">where a father re-writes history</button>
       </div>
     </main>
 
