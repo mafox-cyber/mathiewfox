@@ -55,7 +55,19 @@ layout: none
     .cta{border:0;background:var(--btnBg);color:var(--btnText);font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:12px;padding:16px 26px;border-radius:14px;cursor:pointer;box-shadow:var(--shadow)}
 
     .bottomPill{position:absolute;z-index:3;left:50%;bottom:28px;transform:translateX(-50%);display:flex;gap:6px;padding:8px;border-radius:999px;background:var(--pill);border:1px solid var(--pillBorder);backdrop-filter:blur(10px);box-shadow:var(--shadow)}
-    .pillItem{border:0;background:transparent;color:var(--muted);font-weight:650;font-size:13px;padding:10px 16px;border-radius:999px;cursor:pointer;transition:160ms ease}
+    .pillItem{
+      border:0;
+      background:transparent;
+      color:var(--muted);
+      font-weight:650;
+      font-size:13px;
+      padding:10px 16px;
+      border-radius:999px;
+      cursor:pointer;
+      transition:160ms ease;
+      display:inline-block;          /* <-- added */
+      text-decoration:none;          /* <-- added */
+    }
     .pillItem:hover{color:var(--text);background:rgba(255,255,255,0.10)}
     .pillItem.active{color:var(--text);background:rgba(255,255,255,0.16)}
 
@@ -87,22 +99,22 @@ layout: none
 
     <main class="content">
       <div class="contentInner">
-      
         <h1 class="headline">Welcome to my story<br/>when a father re-writes History</h1>
         <button class="cta" type="button">Begin the Journey</button>
       </div>
     </main>
 
-<div class="bottomPill" role="tablist" aria-label="Sections">
-  <button class="pillItem active" type="button">Iran</button>
-  <button class="pillItem" type="button">America</button>
+    <div class="bottomPill" role="tablist" aria-label="Sections">
+      <button class="pillItem active" type="button">Iran</button>
+      <button class="pillItem" type="button">America</button>
 
-  <a class="pillItem" href="{{ site.baseurl }}/about/">Divorce Court</a>
+      <a class="pillItem" href="{{ site.baseurl }}/about/">Divorce Court</a>
 
-  <button class="pillItem" type="button">Resume</button>
-</div>
+      <a class="pillItem" href="{{ site.baseurl }}/Untitled.png">Images</a>
 
+      <button class="pillItem" type="button">Resume</button>
     </div>
+
   </section>
 
   <script>
