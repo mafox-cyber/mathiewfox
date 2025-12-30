@@ -40,7 +40,7 @@ layout: none
     .logoMark img{width:16px;height:16px;display:block}
 
     .navCenter{flex:1;display:flex;justify-content:center;gap:26px;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
-    .navCenter a{color:var(--muted);text-decoration:none;padding:8px 6px;border-radius:10px;transition:160ms ease}
+    .navCenter a{color:var(--muted);text-decoration:none;padding:8px 6px;border-radius:10px;transition:160ms ease;display:inline-block}
     .navCenter a:hover{color:var(--text);background:rgba(255,255,255,0.08)}
 
     .navRight{display:flex;align-items:center;gap:14px;white-space:nowrap}
@@ -50,7 +50,6 @@ layout: none
 
     .content{position:relative;z-index:2;flex:1;display:flex;align-items:center;justify-content:center;padding:40px 18px 110px;text-align:center}
     .contentInner{max-width:980px}
-    .kicker{color:var(--muted);font-size:14px;margin-bottom:16px}
     .headline{font-family:ui-serif,Georgia,"Times New Roman",Times,serif;font-weight:500;line-height:.96;font-size:clamp(44px,7vw,88px);margin:0 0 26px;text-shadow:0 30px 70px rgba(0,0,0,0.65)}
     .cta{border:0;background:var(--btnBg);color:var(--btnText);font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:12px;padding:16px 26px;border-radius:14px;cursor:pointer;box-shadow:var(--shadow)}
 
@@ -65,8 +64,8 @@ layout: none
       border-radius:999px;
       cursor:pointer;
       transition:160ms ease;
-      display:inline-block;          /* <-- added */
-      text-decoration:none;          /* <-- added */
+      display:inline-block;
+      text-decoration:none;
     }
     .pillItem:hover{color:var(--text);background:rgba(255,255,255,0.10)}
     .pillItem.active{color:var(--text);background:rgba(255,255,255,0.16)}
@@ -86,8 +85,8 @@ layout: none
       </a>
 
       <nav class="navCenter" aria-label="Primary">
-        <a href="#">Blog</a>
-        <a href="#">Pictures</a>
+        <a href="{{ site.baseurl }}/">Blog</a>
+        <a href="{{ site.baseurl }}/Untitled.png">Pictures</a>
         <a href="#">Videos</a>
       </nav>
 
@@ -109,7 +108,6 @@ layout: none
       <button class="pillItem" type="button">America</button>
 
       <a class="pillItem" href="{{ site.baseurl }}/about/">Divorce Court</a>
-
       <a class="pillItem" href="{{ site.baseurl }}/Untitled.png">Images</a>
 
       <button class="pillItem" type="button">Resume</button>
