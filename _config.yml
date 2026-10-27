@@ -1,9 +1,5 @@
-title: " Breaking the Generational Curse"
-description: "A blog"
-theme: minima
+title: "Mathiew Fox — Legacy Site"
+description: "Legacy December 2025 site. Current official website: https://mathiewfox.com/"
 baseurl: "/mathiewfox"
 url: "https://mafox-cyber.github.io"
-header_pages:
-  - about.md
-header_pages:
-  - about.md
+theme: minima
