@@ -1,12 +1,18 @@
 ---
-layout: post
+layout: none
 title: "Start Here"
 ---
-
-If you’re new, this is the best entry point.
-
-- What this site is
-- Why I’m writing it
-- Where to begin in the timeline
-
-(Write your intro here. Keep it simple and build over time.)
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://mathiewfox.com/">
+  <meta http-equiv="refresh" content="0; url=https://mathiewfox.com/">
+  <script>window.location.replace("https://mathiewfox.com/");</script>
+  <title>Mathiew Fox | Official Website</title>
+</head>
+<body>
+  <p>This legacy page has moved to <a href="https://mathiewfox.com/">MathiewFox.com</a>.</p>
+</body>
+</html>
